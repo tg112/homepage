@@ -28,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0.2rem 0.2rem 0.2rem gray;
+  box-shadow: 3px 3px 3px gray;
   transition: top 0.4s;
 }
 
@@ -71,8 +71,8 @@
 .navbar-link span {
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: 0.5rem;
-  margin-top: 0.5rem;
+  letter-spacing: 8px;
+  margin-top: 8px;
 }
 
 .menu {
@@ -80,9 +80,9 @@
   height: 80px;
   background-color: gray;
   position: fixed;
-  top: 1rem;
-  right: 2rem;
-  border-radius: 30rem 30rem 15rem 15rem;
+  top: 16px;
+  right: 32px;
+  border-radius: 480px 480px 240px 240px;
   cursor: pointer;
   z-index: 100;
   transition: top 0.4s 0.2s;
@@ -101,7 +101,7 @@
   position: absolute;
   top: -180px;
   left: calc(50% - 4px);
-  box-shadow: 0.1rem 0rem 0.1rem gray;
+  box-shadow: 2px 0 2px gray;
 }
 
 /* End of Navbar */

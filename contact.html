@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/common.css" >
-    <title>Contact</title>
-</head>
-<body>
-    <nav class="navbar target"></nav>
-    <div class="menu target"></div>
-    <script src="js/common.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+         />
+      <link rel="stylesheet" href="styles/common.css" >
+      <link rel="stylesheet" href="styles/contact.css" >
+      <title>Contact</title>
+   </head>
+   <body>
+      <nav class="navbar target"></nav>
+      <div class="menu target"></div>
+      <section class="contact">
+         <div class="section-header">
+            <h1 class="section-heading">Contact</h1>
+            <div class="underline"></div>
+         </div>
+         <div class="contact-wrapper">
+            <div class="contact-info">
+               <div class="contact-info-item">
+                  <i class="fab fa-github"></i>
+                  <span>github.com/tg112</span>
+               </div>
+               <div class="contact-info-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Seattle, WA</span>
+               </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+               <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name" required />
+               </div>
+               <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Your email" required />
+               </div>
+               <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+               </div>
+               <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+         </div>
+      </section>
+      <script src="js/common.js"></script>
+      <script src="js/contact.js"></script>
+   </body>
 </html>
