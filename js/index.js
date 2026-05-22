@@ -20,4 +20,5 @@ setInterval(() => {
     }
 
     imageElement.setAttribute("src", images[currentIndex]);
+    imageElement.setAttribute("alt", `background image${currentIndex + 1}`)
 }, 3000);
