@@ -45,7 +45,7 @@ The project is a static site with no bundler. Open `index.html` directly in a br
 
 | Tool | Version | Usage |
 |------|---------|-------|
-| Claude (Anthropic) | claude-sonnet-4-6 | Generated the initial structure and content of `contact.html` (the AI-generated page). Also used to review the project against the course rubric. |
+| Claude (Anthropic) | claude-sonnet-4-6 | Generated MIT LICENSE and the initial structure and content of `contact.html` (the AI-generated page). Also used to review the project against the course rubric. |
 | Gemini | 3.5 Flash | Made 3 user personas and 3 user stories for my portfolio. | 
 
 **Prompts used:**

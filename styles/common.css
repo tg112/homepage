@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Jost", sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
 }
 
@@ -45,7 +45,7 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: color 0.3, opacity, 2s;
+  transition: color 0.3s, opacity, 2s;
 }
 
 .change .navbar-link {
