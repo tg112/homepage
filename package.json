@@ -1,0 +1,38 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "My Homepage",
+  "homepage": "https://github.com/tg112/homepage#readme",
+  "bugs": {
+    "url": "https://github.com/tg112/homepage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tg112/homepage.git"
+  },
+  "license": "MIT",
+  "author": "Shota Togawa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-staged": "lint-staged",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.6.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.5",
+    "prettier": "^3.8.3"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
