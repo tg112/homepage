@@ -16,7 +16,7 @@ A personal homepage that introduces who I am — my background, career history, 
 
 ## Shortmovie
 
-<iframe src="https://northeastern.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=caac3272-2815-45d0-9593-b45300277e17&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" style="border: 1px solid #464646; width: 720px; height: 100px;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Saturday, May 23, 2026 at 11:22:14"></iframe>
+![short video](https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=caac3272-2815-45d0-9593-b45300277e17)
 
 ## Screenshot
 
