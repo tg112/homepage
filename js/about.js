@@ -31,6 +31,27 @@ const interestings = [
   },
 ];
 
+const educations = [
+  {
+    year: "2011",
+    startMonth: "Apr",
+    title: "Enrolled Meiji University",
+    desc: "Bachelor of Information and Communication",
+  },
+  {
+    year: "2016",
+    startMonth: "Mar",
+    title: "Graduated from Meiji University",
+    desc: "Bachelor of Information and Communication",
+  },
+  {
+    year: "2026",
+    startMonth: "Jan",
+    title: "Enrolled Northeaster University",
+    desc: "MS in Computer Scienece",
+  },
+];
+
 const careers = [
   {
     year: "2016",
@@ -99,6 +120,10 @@ document
     interestings.map(createInterestings).join("\n"),
   );
 
-document.querySelector(".timeline").innerHTML = careers
+document.querySelector(".education-timeline").innerHTML = educations
+  .map(createTimelineGroups)
+  .join("\n");
+
+document.querySelector(".career-timeline").innerHTML = careers
   .map(createTimelineGroups)
   .join("\n");
