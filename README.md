@@ -16,7 +16,7 @@ A personal homepage that introduces who I am — my background, career history, 
 
 ## Shortmovie
 
-![short video](https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=caac3272-2815-45d0-9593-b45300277e17)
+https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=caac3272-2815-45d0-9593-b45300277e17
 
 ## Screenshot
 
