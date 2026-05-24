@@ -6,17 +6,13 @@
 MS in CS Align, Northeastern University — Seattle Campus
 GitHub: [tg112](https://github.com/tg112)
 
-## Class Link
-
-[CS 5008 — Internet Technologies](https://github.com/tg112/homepage)
-
 ## Project Objective
 
 A personal homepage that introduces who I am — my background, career history, interests, and contact information. The site consists of three pages (Home, About, Contact) and includes an animated hero slideshow, a career timeline, and a working contact form.
 
-## Shortmovie
+## Endpoint
 
-https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=caac3272-2815-45d0-9593-b45300277e17
+https://tg112.github.io/homepage/index.html
 
 ## Screenshot
 
