@@ -47,7 +47,7 @@ const educations = [
   {
     year: "2026",
     startMonth: "Jan",
-    title: "Enrolled Northeaster University",
+    title: "Enrolled Northeastern University",
     desc: "MS in Computer Scienece",
   },
 ];
